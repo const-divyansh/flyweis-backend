@@ -24,12 +24,6 @@ const userSchema = new mongoose.Schema(
                 expires:'5m'
             }
         },
-        passwordResetOTP:{
-            
-        },
-        passwordChangeAt:{
-            type:Date
-        },
         routeHistory:[
             {
                 start:{
@@ -38,7 +32,7 @@ const userSchema = new mongoose.Schema(
                 end:{
                     type:String
                 },
-                weeekday:{
+                weekday:{
                     type:String
                 },
                 date:{

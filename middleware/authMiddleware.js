@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import {findById} from '../services/database_methods.js'
+import {findById} from '../services/helper.js'
 
 export const protect = async (req,res,next)=>{
     const SECRET = process.env.SECRET;

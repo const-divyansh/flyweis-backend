@@ -1,7 +1,6 @@
-import { addUser, deletePasswordResetToken, findToken, saveNewPassword } from "../services/database_methods.js";
+import { addUser, deletePasswordResetToken, findToken, saveNewPassword,findUserByEmail } from "../services/helper.js";
 import { comparePassword, compareToken, createResetPasswordToken } from '../services/helper.js';
 import { signJWT } from "../services/helper.js";
-import { findUserByEmail } from "../services/database_methods.js";
 import { sendEmail } from "../utils/email.js";
 
 

@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'
+import mongoose from 'mongoose';
 import { Users } from './Users.js';
 const Schema = mongoose.Schema;
 const tokenSchema = new Schema({
